@@ -24,7 +24,8 @@
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
-section{
+
+section {
     margin-top: 130px;
 }
 
@@ -121,9 +122,7 @@ main {
 }
 
 /* WHAT I DO STYLES */
-.what-i-do {
-    
-}
+.what-i-do {}
 
 .skills-container {
     display: flex;
@@ -150,4 +149,42 @@ main {
 .skill-description {
     color: #757575;
 }
+
 /* RESUME STYLES */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-title {
+    color: #474747;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.resume-item{
+    margin:30px 0;
+}
+.resume-item .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-item .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-item .description {
+    color: #757575;
+    line-height: 28px;
+    width: 80%;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
